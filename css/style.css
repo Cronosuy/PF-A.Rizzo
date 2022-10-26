@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 900px;
+}
+
+.carousel-inner {
+  height: 900px;
+}
+
+.logoprincipal {
+  width: 50px;
+}
+
+.offcanvas-title {
+  color: white;
+}
+
+.f__redSocial {
+  list-style-type: none;
+}
+
+.f__icono a {
+  text-decoration: none;
+  padding: 10px;
+  color: #ffffff;
+}
