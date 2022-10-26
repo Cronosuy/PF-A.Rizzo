@@ -28,3 +28,7 @@ body {
   padding: 10px;
   color: #ffffff;
 }
+
+.hero {
+  height: 90vh;
+}
