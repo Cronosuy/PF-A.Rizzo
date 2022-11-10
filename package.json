@@ -1,0 +1,25 @@
+{
+  "name": "r-arq-1---copia",
+  "version": "1.0.0",
+  "description": "Planificación y diseño, remodelaciones, mobiliario para comercios, oficinas y particulares. ",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cronosuy/R-ARQ-1.git"
+  },
+  "keywords": ["Diseño",
+  "Interiores",
+  "Remodelaciones",
+  "Arquitectura",
+  "Arquitectos",
+  "Decoracion"],
+  "author": "cronosuy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cronosuy/R-ARQ-1/issues"
+  },
+  "homepage": "https://github.com/Cronosuy/R-ARQ-1#readme"
+}
