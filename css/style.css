@@ -31,7 +31,7 @@ span:hover {
 .f__icono a {
   text-decoration: none;
   padding: 10px;
-  color: #ffffff;
+  color: rgb(255, 157, 45);
 }
 
 .hero {
@@ -40,4 +40,52 @@ span:hover {
 
 h1 {
   color: white;
+}
+
+footer {
+  background-color: black;
+}
+
+.main-image {
+  height: 100vh;
+  background-image: url(../img/fondoprincipal1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+
+.slide-in-fwd-center {
+  -webkit-animation: slide-in-fwd-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-fwd-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+    transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+    transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.impresiones {
+  padding: 100px;
 }
