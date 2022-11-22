@@ -14,12 +14,9 @@ body .main-image {
   color: #ffffff;
 }
 body .main-image h1 {
-  color: #ff9d2d;
+  color: #ffffff;
   font-size: 70px;
-  padding-bottom: 10px;
-  padding-right: 800px;
-  padding-left: 800px;
-  background-color: rgba(0, 0, 0, 0.3254901961);
+  padding-bottom: 100px;
 }
 body .main-image .slide-in-fwd-center {
   -webkit-animation: slide-in-fwd-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
