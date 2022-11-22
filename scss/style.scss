@@ -14,7 +14,12 @@ body {
     background-position: center center;
     color: #ffffff;
     h1 {
-      color: #ffffff;
+      color: #ff9d2d;
+      font-size: 70px;
+      padding-bottom: 10px;
+      padding-right: 800px;
+      padding-left: 800px;
+      background-color: #00000053;
     }
     .slide-in-fwd-center {
       -webkit-animation: slide-in-fwd-center 2s
@@ -62,17 +67,17 @@ body {
   }
 }
 
-h2 {
-  color: #ff9d2d;
-}
-
-h3 {
-  color: #ff9d2d;
-}
-
+h2,
+h3,
 h5 {
   color: #ff9d2d;
 }
+
+h6 {
+  color: #ffffff;
+}
+
+// footer
 
 footer {
   background-color: #000000;
@@ -90,14 +95,46 @@ footer {
   }
 }
 
+// servicios
+
+.servicios {
+  display: flex;
+  align-items: center;
+}
+
 .card-services {
   background-image: url(../img/pexels-pixabay-159045.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 250px;
+  height: 337px;
+  max-width: 100%;
+  .texto-servicios {
+    font-size: 40px;
+  }
+}
+.btn-servicios {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 0.9rem 2rem;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 500px;
+  overflow: hidden;
+  background: #ff9d2d;
+  color: #ffffff;
 }
 
-h6 {
-  color: #ffffff;
+//contacto
+
+.formulario-contacto {
+  display: flex;
+  padding-top: 100px;
 }
